@@ -1,0 +1,320 @@
+/* обнуление стилей */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* =================================================== */
+
+/* привет я . ДОМАШКА №5:
+1) Используя ВСЕ, изученные CSS свойства блоков, применяем их для блочных, строчный и блочно-строчных объектов. Также меняем свойства объектов с помощью display. Экспериментируем, чтобы понять и запомнить свойства и их значения. */
+/* _______________________________________________ */
+
+/* .block {
+background-color: green;
+padding: 10px 10px 10px 10px;
+margin: 0 0 30px 0;
+
+}
+.inline {
+background-color: orchid;
+padding: 10px;
+line-height: 30px;
+margin: 0 0 30px 0;
+
+}
+.inline-block {
+	padding: 10px;
+	background-color: palegoldenrod;
+	max-width: 100%;
+	display: block;
+} */
+
+/* _______________________________________________ */
+
+/* .block {
+	margin: 10px 20px;
+	padding: 3px;
+	background-color: palegreen;
+	overflow: hidden;
+}
+
+	.inline {
+	background-color: rgb(20, 160, 20);
+	display: block;
+	margin: -40px 3px 30px -20px;
+	padding: 3px 5px 5px;
+	
+}
+
+.inline-block {
+	display: block;
+	margin: 0 auto;
+	max-height: 150px;
+} */
+
+/*================================================= */
+
+.block {
+	width: 200px;
+	margin: 30px auto;
+	padding: 10px;
+	background-color: rgb(63, 200, 205);
+}
+.inline {
+	display: inline-block;
+	padding: 5px;
+	min-width: 200px;
+	margin: 0 0 30px 0;
+	background-color: peru;
+}
+.inline-block {
+	max-width: 300px;
+	margin: 0px auto 30px 0px;
+}
+
+/*=============================================== */
+
+/* 2) Дополнительная задача:
+2.1) Есть 4ре спана с текстом Привет! Нужно выстроить их каждый с новой строки. */
+
+.text {
+	display: block;
+	margin: 0 0 30px;
+	font-size: 35px;
+}
+
+/* ________________________________________ */
+
+.example-div {
+	max-width: 200px;
+	max-height: 200px;
+	padding: 15px;
+	display: inline-block;
+	background-color: violet;
+	font-size: 16px;
+	margin: 0 0 30px 0;
+}
+
+/* ______________________________________ */
+
+.link {
+	display: inline-block;
+	margin: 0 0 30px 0;
+	color: blue;
+}
+
+/* ______________________________________ */
+
+.text__lorem {
+	max-width: 100px;
+	padding: 10px;
+	margin: 0 30px 30px 0;
+	display: inline-block;
+	background-color: cornflowerblue;
+}
+
+/* _____________________________________ */
+
+.example2 {
+	background-color: darkgray;
+	max-width: 300px;
+	padding: 30px;
+}
+.example3 {
+	background-color: darksalmon;
+	margin: -30px 0 30px 0;
+	max-width: 240px;
+	padding: 30px;
+}
+
+/* _____________________________________ */
+
+.text__span {
+	display: block;
+	width: 70%;
+	max-height: 200px;
+	overflow: auto;
+	border: 1px solid grey;
+	margin: 0 0 30px 0;
+}
+
+/* я домашка - Статья */
+
+.footer__block {
+	width: 100%;
+
+	background-color: rgba(156, 156, 156, 0.326);
+}
+.footer__title {
+	font-size: 30px;
+	margin: 0 0 30px 0;
+	padding: 20px 0 0 20px;
+}
+.footer__navigation {
+	margin: 0 0 10px 0;
+}
+.footer__list {
+}
+.footer__link {
+	display: inline-block;
+	background-color: rgba(35, 0, 130, 0.726);
+	color: ivory;
+	border-radius: 3px;
+	padding: 2px;
+	margin: 0 0 30px 20px;
+}
+.main__block {
+	margin: 0px 5px 30px 5px;
+	text-align: justify;
+	max-width: 800px;
+}
+.main__chapter {
+}
+.main__text {
+	margin: 0 0 30px 0;
+	line-height: 25px;
+}
+.main__item-i {
+	font-weight: 600;
+	font-style: italic;
+	font-size: 15px;
+}
+.main__title2 {
+	margin: 0 0 10px 30px;
+	font-size: 20px;
+}
+
+.main__item-b {
+	font-weight: 800;
+	font-size: 15px;
+}
+.main__row {
+}
+.main__link-ul {
+}
+.main__item {
+	font-weight: 600;
+	display: inline-block;
+	background-color: rgba(141, 141, 158, 0.603);
+	border-radius: 3px;
+	letter-spacing: 1.2px;
+	padding: 0 2px 0px 2px;
+}
+.main__link {
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 5px 10px 30px 5px;
+}
+
+.main__note {
+	background-color: rgba(0, 128, 0, 0.158);
+	border-left: 6px solid rgb(17, 27, 167);
+	padding: 0 5px 0 5px;
+}
+.main__text-i {
+}
+.main__box {
+	display: none;
+}
+.main__block1 {
+	display: none;
+}
+.main__box-text {
+	display: none;
+}
+.main__block2 {
+	display: none;
+}
+.main__list {
+	display: none;
+}
+.main__block3 {
+	display: none;
+}
+
+.main__example1 {
+	background-color: cadetblue;
+	display: inline-block;
+	margin: 0 0 30px 0;
+}
+.main__example2 {
+	display: inline-block;
+	border: 1px solid orange;
+	margin: 0 0 30px 0;
+}
+.main__text3 {
+	display: inline;
+}
+.block2 {
+	display: block;
+	background-color: coral;
+}
+
+.main__example-list {
+	border: 1px solid #000;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.block {
+}
+.main__text-b {
+}
+.main__title3 {
+	text-shadow: 1px 1px 5px black;
+	font-size: 20px;
+}
+.main__schem-css-block {
+	display: block;
+	margin: 0 auto;
+}
